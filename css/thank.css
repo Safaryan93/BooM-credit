@@ -1,0 +1,41 @@
+.container_thank  {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(114, 113, 113, 0.159);
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-image: url(../img/bgg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.thank_block {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    -webkit-box-shadow: inset 0 1px 1px #f0f0f0, 0 3px 6px -5px #bbb;
+    box-shadow: inset 0 1px 1px #f0f0f0, 0 3px 10px 3px #bbb;
+}
+.back {
+    border-radius: 10px;
+    background-color: #0c5202;
+    border: 1px solid #0c5202;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    transition: all 300ms ease-out;
+}
+.back:hover {
+    background-color: transparent;
+    color: #0c5202;
+    transition: all 300ms ease-in;
+}
